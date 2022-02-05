@@ -1,0 +1,23 @@
+body{
+    background-color: darkslateblue;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+.employee, .salary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}

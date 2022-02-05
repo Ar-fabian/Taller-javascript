@@ -1,0 +1,33 @@
+section{
+    margin: 0 auto;
+    width: 60%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkviolet;
+}
+.btn{
+    background-color: blue;
+    border: none;
+    margin: 10px;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+.layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+    background-color: indigo;
+    padding: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    /* background-color: lightblue; */
+    cursor: pointer;
+}

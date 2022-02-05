@@ -1,0 +1,23 @@
+body{
+    background-color: darkslateblue;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(3, 50px);
+    justify-content: center;
+}
+.input{
+    margin-top: 20px;
+}
+.text{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}

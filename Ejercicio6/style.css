@@ -1,0 +1,32 @@
+body{
+    background-color: #282c34;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: 1s all;
+}
+.btn{
+    margin: 30px;
+    background-color: tomato;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
